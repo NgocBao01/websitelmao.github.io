@@ -1,0 +1,82 @@
+/* Reset cơ bản */
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    color: #333;
+}
+
+/* Container giúp căn giữa nội dung */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+/* Section chung */
+section {
+    background: #fff;
+    padding: 40px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* About */
+.about {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.about img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+/* Skills */
+.skills ul {
+    display: flex;
+    gap: 15px;
+}
+
+.skills li {
+    background: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+/* Contact */
+.contact a {
+    color: #0073e6;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 20px 0;
+    margin-top: 20px;
+}
